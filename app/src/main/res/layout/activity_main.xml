@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#860FFD"
+    tools:context=".MainActivity">
+
+
+
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerInParent="true"
+        app:inner_text="Swipe To Unlock"
+        app:inner_text_color="@android:color/white"
+        app:inner_text_size="16dp"
+        app:inner_text_top_padding="16dp"
+        app:inner_text_bottom_padding="16dp"
+        app:inner_text_background="@drawable/shape_rounded"
+        app:button_image_disabled="@drawable/ic_baseline_lock_open_24"
+        app:button_image_enabled="@drawable/ic_baseline_lock_24"
+        app:button_left_padding="20dp"
+        app:button_right_padding="20dp"
+        app:button_top_padding="20dp"
+        app:button_bottom_padding="20dp"
+        app:button_background="@drawable/shape_button"
+
+        >
+
+
+    </com.ebanx.swipebtn.SwipeButton>
+
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/move"
+     android:text="Move To 2nd Activity"
+     android:textSize="20sp"
+     android:layout_below="@+id/swipe"
+     android:layout_marginTop="40dp"
+     android:layout_marginEnd="20dp"
+     android:layout_marginStart="20dp">
+
+ </Button>
+"
+
+
+</RelativeLayout>
